@@ -1,6 +1,7 @@
 class Integer
     def primo
-        return  false if self == -1 || self == 0 || self == 1  
+        #return  false if self == -1 || self == 0 || self == 1  
+        #return true if self == 2
         cont = 0
         self.times do |numero|
             numero += 1
